@@ -1,0 +1,46 @@
+{
+  "name": "react-ssr-template",
+  "version": "1.0.0",
+  "scripts": {
+    "build:client": "webpack --config webpack.client.js",
+    "build:server": "webpack --config webpack.server.js",
+    "build": "npm run build:client && npm run build:server",
+    "build:start": "npm run build && npm start",
+    "start": "NODE_ENV=production node ./dist/server.bundle.js",
+    "dev": "NODE_ENV=development npm run build && webpack-dashboard -- node ./dist/server.bundle.js",
+    "test:unit": "jest ./client ./server --coverage",
+    "lint": "eslint ./client ./server"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.4",
+    "prop-types": "15.6.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-loadable": "5.5.0",
+    "react-router-dom": "4.3.1",
+    "styled-components": "4.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/preset-env": "7.2.3",
+    "@babel/preset-react": "7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "23.6.0",
+    "babel-loader": "8.0.4",
+    "copy-webpack-plugin": "4.6.0",
+    "eslint": "5.12.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.12.3",
+    "jest": "23.6.0",
+    "react-hot-loader": "4.6.3",
+    "webpack": "4.28.3",
+    "webpack-cli": "3.2.0",
+    "webpack-dashboard": "2.0.0",
+    "webpack-dev-middleware": "3.4.0",
+    "webpack-hot-middleware": "2.21.0",
+    "webpack-node-externals": "1.7.2"
+  }
+}
