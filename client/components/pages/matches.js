@@ -1,11 +1,15 @@
 import React from "react";
-import SwipeButton from "../atoms/swipeButton";
+import ThumbDownButton from "../atoms/ThumbDownButton";
+import ThumbUpButton from "../atoms/ThumbUpButton";
+import ProfileImage from "../atoms/ProfileImage";
 
 const Matches = () => {
   return (
     <>
       <h1>Matches Page</h1>
-      {/* <SwipeButton buttonText={"Testing 123"} onClick={alert("Works")} /> */}
+      <ThumbDownButton />
+      <ThumbUpButton />
+      <ProfileImage />
     </>
   );
 };
