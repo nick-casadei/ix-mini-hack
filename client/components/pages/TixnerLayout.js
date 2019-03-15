@@ -1,9 +1,9 @@
-import TixnerHeader from "./TixnerHeader";
+import TixnerHeader from "./tixnerHeader";
 import { GridRow, GridCol, Page } from "govuk-react";
 import styled from "styled-components";
 import React from "react";
 import { MEDIA_QUERIES } from "@govuk-react/constants";
-import TixnerFooter from "./TixnerFooter";
+import TixnerFooter from "./tixnerFooter";
 
 const GridRowZeroMargin = styled(GridRow)`
   margin: 0px;
