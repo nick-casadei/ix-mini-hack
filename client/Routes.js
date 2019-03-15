@@ -23,7 +23,7 @@ const MatchesLoadable = Loadable({
 
 const ProjectsLoadable = Loadable({
   loader: () =>
-    import("./components/pages/some-page" /* webpackChunkName: 'page__projects' */),
+    import("./components/pages/projects" /* webpackChunkName: 'page__projects' */),
   loading: Loading
 });
 
