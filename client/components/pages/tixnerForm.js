@@ -7,10 +7,11 @@ import Radio from "@govuk-react/radio";
 import LabelText from "@govuk-react/label-text";
 import Checkbox from "@govuk-react/checkbox";
 import { Link } from "react-router-dom";
+import TixnerLayout from "./TixnerLayout";
 
 const MatchingForm = () => {
   return (
-    <div>
+    <TixnerLayout>
       <Header level={1} size="LARGE">
         Matching Form
       </Header>
@@ -53,7 +54,7 @@ const MatchingForm = () => {
       <Link to="/matches">
         <Button type="begin">Submit</Button>
       </Link>
-    </div>
+    </TixnerLayout>
   );
 };
 
