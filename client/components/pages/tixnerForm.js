@@ -6,6 +6,7 @@ import FileUpload from "@govuk-react/file-upload";
 import Radio from "@govuk-react/radio";
 import LabelText from "@govuk-react/label-text";
 import Checkbox from "@govuk-react/checkbox";
+import { Link } from "react-router-dom";
 
 const MatchingForm = () => {
   return (
@@ -48,8 +49,10 @@ const MatchingForm = () => {
       >
         Upload a really really cool photo of yourself
       </FileUpload>
-      <ContentItem.B_20_20 />
-      <Button type="begin">Submit</Button>
+      <ContentItem.B_45_30 />
+      <Link to="/matches">
+        <Button type="begin">Submit</Button>
+      </Link>
     </div>
   );
 };
