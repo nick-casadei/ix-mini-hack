@@ -1,4 +1,4 @@
-import TixnerHeader from "./TixnerHeader";
+import TixnerHeader from "./tixnerHeader";
 import { GridRow, GridCol, Page } from "govuk-react";
 import styled from "styled-components";
 import React from "react";

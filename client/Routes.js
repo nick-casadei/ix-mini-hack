@@ -11,7 +11,7 @@ const HomeLoadable = Loadable({
 
 const SignUpLoadable = Loadable({
   loader: () =>
-    import("./components/pages/some-page" /* webpackChunkName: 'page__sign-up' */),
+    import("./components/pages/tixnerForm" /* webpackChunkName: 'page__sign-up' */),
   loading: Loading
 });
 
