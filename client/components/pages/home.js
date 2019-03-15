@@ -10,9 +10,8 @@ const Home = () => (
     <h1>Welcome to Tixder</h1>
 
     <ContentGroup spacing="small">
-      <h2>Find more techie peeps!</h2>
       <p>
-        {`Note that this text is completely irrelivant to what I am trying to show you.`}
+        {`Here is an explanation of what this app is for.. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. `}
       </p>
     </ContentGroup>
   </TextContainer>

@@ -31,7 +31,7 @@ const Company = (
   </AnchorTag>
 );
 
-const ServiceTitle = <NavLink to={`/`}>TiXner App</NavLink>;
+const ServiceTitle = <NavLink to={`/`}>Tixder App</NavLink>;
 
 const HeaderMain = styled(Main)({
   paddingTop: 0
