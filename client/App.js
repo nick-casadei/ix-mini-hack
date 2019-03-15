@@ -3,7 +3,7 @@ import { Nav } from "./components/organisms";
 import { Main } from "./components/atoms";
 import StyleWrapper from "./StyleWrapper";
 import Routes from "./Routes";
-import TixnerLayout from "./components/pages/tixnerLayout";
+import TixnerLayout from "./components/pages/TixnerLayout";
 
 const App = () => (
   <StyleWrapper>
