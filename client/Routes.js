@@ -17,7 +17,7 @@ const SignUpLoadable = Loadable({
 
 const MatchesLoadable = Loadable({
   loader: () =>
-    import("./components/pages/some-page" /* webpackChunkName: 'page__matches' */),
+    import("./components/pages/matches" /* webpackChunkName: 'page__matches' */),
   loading: Loading
 });
 
