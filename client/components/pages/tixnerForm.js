@@ -27,7 +27,7 @@ const MatchingForm = () => {
         <ContentItem.B_20_20 />
 
         <Radio name="group1">Less than 3 months</Radio>
-        <Radio name="group1">3 months to 1 year </Radio>
+        <Radio name="group1">3 months to 1 year</Radio>
         <Radio name="group1">1 year to 3 years</Radio>
         <Radio name="group1">3 years to 5 years</Radio>
         <Radio name="group1">Too long</Radio>
