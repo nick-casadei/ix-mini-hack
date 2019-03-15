@@ -26,6 +26,12 @@ const GlobalStyles = createGlobalStyle`
     font-family: sans-serif;
     font-size: 16px;
     color: ${props => props.theme.colours.primary};
+    background: linear-gradient(
+    to right,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); 
   }
 `;
 
