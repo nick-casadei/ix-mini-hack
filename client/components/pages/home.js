@@ -1,23 +1,21 @@
 import { ContentGroup } from "../atoms";
+import styled from "styled-components";
 
-// const ClockLoadable = Loadable({
-//   loader: () =>
-//     import("../code-split/Clock" /* webpackChunkName: 'component__clock' */),
-//   loading: Loading
-// });
+const TextContainer = styled("div")`
+  color: white;
+`;
 
 const Home = () => (
-  <div>
-    <h1>Home page</h1>
+  <TextContainer>
+    <h1>Welcome to Tixder</h1>
 
     <ContentGroup spacing="small">
-      <h2>Random number component:</h2>
+      <h2>Find more techie peeps!</h2>
       <p>
-        {`Note that the random number is generated twice - once on the server
-        render and again when the client 'hydrates' the window:`}
+        {`Note that this text is completely irrelivant to what I am trying to show you.`}
       </p>
     </ContentGroup>
-  </div>
+  </TextContainer>
 );
 
 export default Home;
