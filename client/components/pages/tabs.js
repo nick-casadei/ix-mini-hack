@@ -1,11 +1,11 @@
 import React from "react";
 import Loadable from "react-loadable";
-import { Loading } from "../components";
-import { ContentGroup } from "../components/atoms";
+import { Loading } from "../molecules";
+import { ContentGroup } from "../atoms";
 
 const ClockLoadable = Loadable({
   loader: () =>
-    import("../components/code-split/Clock" /* webpackChunkName: 'component__clock' */),
+    import("../code-split/Clock" /* webpackChunkName: 'component__clock' */),
   loading: Loading
 });
 

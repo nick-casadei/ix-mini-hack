@@ -1,10 +1,10 @@
 import Loadable from "react-loadable";
-import { RandomNumber, ChangeState, Loading } from "../components";
-import { HintText, ContentGroup } from "../components/atoms";
+import { HintText, ContentGroup, RandomNumber } from "../atoms";
+import { ChangeState, Loading } from "../molecules";
 
 const ClockLoadable = Loadable({
   loader: () =>
-    import("../components/code-split/Clock" /* webpackChunkName: 'component__clock' */),
+    import("../code-split/Clock" /* webpackChunkName: 'component__clock' */),
   loading: Loading
 });
 
